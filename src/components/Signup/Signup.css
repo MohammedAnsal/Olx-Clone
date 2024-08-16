@@ -1,0 +1,64 @@
+.all-div {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Ensure body takes full height of viewport */
+  margin: 0; /* Remove default margin */
+}
+
+.signupParentDiv {
+  border: 3px solid rgb(57, 223, 209);
+  border-radius: 25px;
+  padding: 60px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.signupParentDiv img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.signupParentDiv form {
+  width: 100%;
+  text-align: start;
+  color: black;
+}
+
+.signupParentDiv form button {
+  padding: 5px 1rem;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+  border-radius: 25px;
+  background: rgb(2, 191, 175);
+  border: 0px;
+  color: white;
+}
+
+/* .signupParentDiv form button:hover{
+    
+    color: rgb(2, 191, 175) ;
+    background: white;
+    border: 0.5px solid rgb(28, 52, 50) ;
+  } */
+
+.signupParentDiv form input {
+  margin-top: 5px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 25px;
+  background: white;
+  border: 0;
+  color: black;
+  display: block;
+  box-sizing: border-box;
+  border: 0.5px solid rgb(144, 144, 71);
+}
+
+.signupParentDiv a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(80, 80, 148);
+  cursor: pointer;
+}

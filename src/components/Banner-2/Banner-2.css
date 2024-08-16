@@ -1,0 +1,45 @@
+.banner2 {
+  width: 100%;
+
+  background: rgb(126, 103, 103);
+}
+.maindiv {
+  display: flex;
+  padding-top: 6px;
+  justify-content: space-evenly;
+  background: #fff;
+}
+.banner {
+  width: 30%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  width: 30%;
+  height: 240px;
+  padding-top: 3.5rem;
+}
+
+.quote h6 {
+  font-size: 20.1px;
+  font-family: initial;
+}
+.store {
+  margin-top: 18px;
+  width: 30%;
+  height: 200px;
+  border-left: 1.5px solid gray;
+  text-align: center;
+}
+.store img {
+  width: 20%;
+  margin-left: 10px;
+}
+.store h5 {
+  padding-top: 20px;
+  font-size: larger;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}

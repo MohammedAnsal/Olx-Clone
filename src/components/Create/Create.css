@@ -1,0 +1,32 @@
+.centerDiv {
+  border: 2px solid black;
+  width: max-content;
+  padding: 50px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+}
+.input {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  outline-color: transparent;
+}
+
+.uploadBtn {
+  margin-top: 30px;
+  width: 100%;
+  border: 0;
+  height: 48px;
+  /* border-color: transparent; */
+  background-color:rgb(2, 191, 175);
+  color: whitesmoke;
+  font-weight: 900;
+}
+/* .uploadBtn:hover {
+  background-color:rgb(2, 191, 175);
+  color: white;
+  border: px solid rgb(2, 191, 175);
+} */
